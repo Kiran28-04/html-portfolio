@@ -3,30 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiran's Portfolio</title>
+    <link rel="stylesheet" href="assets/style.css"> <!-- External CSS file -->
 </head>
 
 <body>
-    <h1>Kiran Kashid's Portfolio</h1>
-    <h2>I am a Web Developer</h2>
-    <hr />
+    <header>
+        <h1>Kiran Kashid's Portfolio</h1>
+        <h2>I am a Web Developer</h2>
+    </header>
 
-    <!-- Movie Ranking Project -->
-    <h3><a href="Public/Movieranking_project_index.html">Movie Ranking Project</a></h3>
-    <img src="assets/images/movie-ranking.png" height="400" alt="Screenshot of Movieranking_project" />
-    <hr />
+    <main>
+        <section class="projects">
 
-    <!-- Birthday Invite Project -->
-    <h3><a href="Public/Birthdayinvitation_project_index.html">Birthday Invite Project</a></h3>
-    <img src="assets/images/birtday-invite.png" height="400" alt="Screenshot of Birthdayinvitation_project" />
-    <hr />
+            <!-- Movie Ranking Project -->
+            <div class="project-card">
+                <a href="Public/Movieranking_project_index.html">
+                    <img src="assets/images/movie-ranking.png" alt="Screenshot of Movie Ranking Project">
+                    <h3>🎬 Movie Ranking Project</h3>
+                </a>
+            </div>
 
-    <!-- Spanish Vocabulary Project -->
-    <h3><a href="Public/Spanish_Vocabulary/index.html">Spanish Vocabulary Project</a></h3>
-    <img src="assets/images/spanish-vocabulary.png" height="400" alt="Screenshot of Spanish Vocabulary Project" />
-    <hr />
+            <!-- Birthday Invite Project -->
+            <div class="project-card">
+                <a href="Public/Birthdayinvitation_project_index.html">
+                    <img src="assets/images/birtday-invite.png" alt="Screenshot of Birthday Invitation Project">
+                    <h3>🎉 Birthday Invitation Project</h3>
+                </a>
+            </div>
 
-    <a href="Public/contactMe.html">Contact Me</a>
+            <!-- Spanish Vocabulary Project -->
+            <div class="project-card">
+                <a href="Public/Spanish_Vocabulary/index.html">
+                    <img src="assets/images/spanish-vocabulary.png" alt="Screenshot of Spanish Vocabulary Project">
+                    <h3>🗣️ Spanish Vocabulary Project</h3>
+                </a>
+            </div>
 
+        </section>
+    </main>
+
+    <footer>
+        <p>📞 <a href="Public/contactMe.html">Contact Me</a> | © 2025 Kiran Kashid</p>
+    </footer>
 </body>
 </html>
