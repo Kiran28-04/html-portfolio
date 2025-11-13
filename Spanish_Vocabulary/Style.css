@@ -1,0 +1,36 @@
+body {
+    background-image: url("assets/images/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#red{
+    color: red;
+}
+
+#blue{
+    color: blue;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#green{
+    color: green;
+}
+
+#orange{
+    color: orange;
+}
+
+.color-title{
+    font-weight: normal;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+
+}
